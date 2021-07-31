@@ -12,9 +12,7 @@ namespace TCC
         public static void Main(string[] args)
         {
            Console.WriteLine("Type in the number you want to use: ");
-           int num = Int32.Parse(Console.ReadLine());
-            
-             
+           int num = Int32.Parse(Console.ReadLine());                    
                 for (int i = 0; i < 3;)
                 {
                     if (IsOdd(num) == false)
@@ -29,21 +27,10 @@ namespace TCC
                       {
                          i++;
                       }
-
-                         Console.WriteLine(num);
-                 
+                         Console.WriteLine(num);                 
                 }
 
-             
-
-
-           
-
-             
-
-
-
-
+     
         }
     
         public static bool IsOdd(int num)
@@ -56,8 +43,7 @@ namespace TCC
              {
                  return true;
              }
-    
-
+   
 
         }
 
